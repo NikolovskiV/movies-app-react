@@ -1,0 +1,23 @@
+.cartoon__container {
+  width: 100%;
+  height: calc(100% - 7rem);
+  justify-content: center;
+  place-items: center;
+  margin-top: 92rem;
+  margin-bottom: 4rem;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .cartoon__container {
+    width: 100%;
+    height: calc(100% - 7rem);
+    justify-content: center;
+    place-items: center;
+    margin-top: 148rem;
+    margin-bottom: 0rem;
+    align-items: center;
+    text-align: center;
+  }
+}
